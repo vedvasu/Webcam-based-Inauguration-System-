@@ -1,0 +1,33 @@
+1. Python
+ Download Python from the following link:
+ https://www.python.org/ftp/python/2.7.6/python-2.7.6.msi
+ Double-click the downloaded file to commence installation
+ In order to configure the environment variables,
+◦ Right-click on 'My Computer'
+◦ Click on 'Properties'
+◦ Click on 'Advanced System Settings' to open the 'System Properties' dialog box
+◦ Under 'System Properties', select the 'Advanced' tab
+◦ Click on 'Environment Variables'
+◦ Under 'System Variables', search for the variable 'Path'
+◦ Add 'C:/Python27;C:/Python27/Scripts;' at the start of the textbox
+◦ Click on 'OK'
+
+2. Numpy
+ Download Numpy from the following link:
+ http://sourceforge.net/projects/numpy/files/NumPy/1.7.1/numpy-1.7.1-win32-superpack-python2.7.exe/download
+ Double-click the downloaded file to commence installation
+ In order to verify your installation,
+◦ Open Command Prompt and type 'python' and press Enter
+◦ At the python prompt, type 'import numpy' and press Enter
+◦ You should see the following prompt:
+
+3. OpenCV
+ Download OpenCV from the following link:
+ http://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.9/opencv-2.4.9.exe/download
+ Double-click the downloaded file to commence installation
+ Navigate to the folder opencv/build/python/2.7
+ Copy the file cv2.pyd to C:/Python27/lib/site-packages
+ In order to verify your installation,
+◦ Open Command Prompt and type 'python' and press Enter
+◦ At the python prompt, type 'import cv2' and press Enter
+◦ You should see the following prompt:
