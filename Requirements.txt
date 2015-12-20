@@ -10,6 +10,6 @@ I have used the following devices my inaugration System.
 3) Any microcntroller based robot which can work on serial communication.
   # I have used FIREBIRD V robot designed by nex-robotics.com
   
-4) Other accessories based on the mechanical system you are designing.
+4) Other accessories and softwares based on the mechanical system and embedded programming you are designing.
 
 # view installation_instruction.txt for installation
