@@ -1,0 +1,15 @@
+I have used the following devices my inaugration System.
+
+1) Python, OpenCV and required packages (serial,time,numpy)
+
+2) Webcam, a medium quality webcam can be used as we have to work with only light intensit.
+
+2) Zigbee Module and related softwares (XCTU)
+   #any other serial communication device can also be used
+
+3) Any microcntroller based robot which can work on serial communication.
+  # I have used FIREBIRD V robot designed by nex-robotics.com
+  
+4) Other accessories based on the mechanical system you are designing.
+
+# view installation_instruction.txt for installation
