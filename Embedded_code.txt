@@ -1,8 +1,14 @@
+// Program: Motion_Code
+// Discription: This is the embedded code for robot motion. Input is taken through zigbee module and robot motion is initiated
+// This code works for FIREBIRD V based on ATMEGA2560 microcintroller robot by nex-robotics.com as per the code description provided by them.
+// Any other device with serial communication capability can be used for the purpose for serial communication through zigbee.
+// motion pins are set accordingly
+
+
 #include <avr/io.h>
 #include <util/delay.h>
 
 unsigned char data; //to store received data from UDR1
-
 
 //Function to configure ports to enable robot's motion
 
@@ -10,8 +16,6 @@ void motion_pin_config (void)
 {
 	DDRA = DDRA | 0x0F;
 	PORTA = PORTA & 0xF0;
-	DDRL = DDRL | 0x18;   //Setting PL3 and PL4 pins as output for PWM generation
-	PORTL = PORTL | 0x18; //PL3 and PL4 pins are for velocity control using PWM.
 }
 
 //Function to initialize ports
@@ -80,8 +84,7 @@ int main(void)
 
 		if(data == 0x38) //ASCII value of 8
 		{
-			forward_mm(90); //Moves robot forward 100mm
-			stop();
+			forward(); //Moves robot forward 100mm
 			_delay_ms(700);
 		}     
 		if(data == 0x35) //ASCII value of 5
