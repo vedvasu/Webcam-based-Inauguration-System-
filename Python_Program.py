@@ -1,3 +1,15 @@
+'''
+*
+* Author: Ved Vasu Sharma
+* Name: Main Program
+* Input: None
+* Output: None
+* Logic: Captures the image from camera, invokes the appropiate functions to get the task done
+* Example Call: Called automatically by the Operating System
+*
+*
+'''
+############# Main Program ###################
 ##############################################
 import numpy as np
 import cv2
