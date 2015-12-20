@@ -1,0 +1,5 @@
+-- This project can be used as a general system for using basic concepts of image processing for initiating the electronic and mechanical systems.
+
+-- As the light intensity captured from the webcam changes the instruction are sent to the electronic devices to follow the furthur instructions.
+
+-- The application is inaugration by moving curtains and inititing the process through webcame....by the guest of honor. 
